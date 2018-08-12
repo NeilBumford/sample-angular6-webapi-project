@@ -14,9 +14,9 @@ namespace AngrierSix.Services
 
       return new RoomDetailsResultViewModel()
       {
-        FloorArea = model.Length * model.Width,
-        Volume = model.Length * model.Width * model.Height,
-        PaintRequired = (((model.Length * model.Height) + (model.Width * model.Height)) * 2) / Coverage.MattEmulsion
+        FloorArea = (model.Length * model.Width).ToString("N"),
+        Volume = (model.Length * model.Width * model.Height).ToString("N"),
+        PaintRequired = ((((model.Length * model.Height) + (model.Width * model.Height)) * 2) / Coverage.MattEmulsion).ToString("N")
       };
     }
   }

@@ -1,4 +1,9 @@
-form {
-  min-width: 150px;
-  width: 50%;
+form, .button-row {
+  min-width: 200px;
+  width: 33.333%;
+  margin: 0 auto;
+}
+.button-row {
+  text-align: center;
+  margin-top: 0.5em;
 }

@@ -7,10 +7,10 @@ namespace AngrierSix.Models
 {
     public class RoomDetailsResultViewModel
     {
-      public decimal FloorArea { get; set; }
+      public string FloorArea { get; set; }
 
-      public decimal Volume { get; set; }
+      public string Volume { get; set; }
 
-      public decimal PaintRequired { get; set; }
+      public string PaintRequired { get; set; }
   }
 }
