@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { RoomDetailsCreateComponent } from './components/room-details-create/room-details-create.component';
 import { RoomDetailsDetailComponent } from './components/room-details-detail/room-details-detail.component';
 import { RoutingModule } from './app.routing';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,9 @@ import { RoutingModule } from './app.routing';
   imports: [
     BrowserModule,
     RoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

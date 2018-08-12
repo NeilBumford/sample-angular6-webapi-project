@@ -5,16 +5,14 @@ using System.Threading.Tasks;
 
 namespace AngrierSix.Models
 {
-  public static class Paint
+  public static class Coverage
   {
-    public static readonly IDictionary<string, decimal> Coverage;
-    static Paint()
+    public static readonly decimal MattEmulsion;
+    public static readonly decimal Gloss;
+    static Coverage()
     {
-      Coverage = new Dictionary<string, decimal>()
-      {
-        { "MattEmulsion", 13},
-        { "Gloss", 8}
-      };
+      MattEmulsion = 13.3M;
+      Gloss = 8.7M;
     }
   }
 }

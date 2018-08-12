@@ -27,6 +27,13 @@ namespace AngrierSix
         {
           services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
           services.AddScoped<IRoomDetailsService, RoomDetailsService>();
+
+          services.AddDistributedMemoryCache();
+          services.AddSession(options =>
+          {
+            options.IdleTimeout = TimeSpan.FromSeconds(10);
+            options.Cookie.HttpOnly = true;
+          });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,9 +44,10 @@ namespace AngrierSix
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseSession();
             app.UseMvc();
             app.UseDefaultFiles();
             app.UseStaticFiles();
-        }
+          }
     }
 }

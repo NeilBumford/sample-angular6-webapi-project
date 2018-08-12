@@ -16,7 +16,7 @@ namespace AngrierSix.Services
       {
         FloorArea = model.Length * model.Width,
         Volume = model.Length * model.Width * model.Height,
-        PaintRequired = (((model.Length * model.Height) + (model.Width * model.Height)) * 2) / Paint.Coverage["MattEmulsion"]
+        PaintRequired = (((model.Length * model.Height) + (model.Width * model.Height)) * 2) / Coverage.MattEmulsion
       };
     }
   }

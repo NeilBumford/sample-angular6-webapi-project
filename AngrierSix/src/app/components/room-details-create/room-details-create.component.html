@@ -1,3 +1,27 @@
-<p>
-  room-details-create works!
-</p>
+
+<form [formGroup]="roomForm" (ngSubmit)="onSubmit(roomForm.value)">
+
+  <div class="form-group">
+    <label for="length">Length</label>
+    <input type="number" formControlName="length" class="form-control" id="length" />
+    <!--
+    <div *ngIf="submitted && f.length.errors" class="invalid-feedback">
+      <div *ngIf="f.length.errors.required">Length is required</div>
+    </div>
+    -->
+
+    <label for="width">Width</label>
+    <input type="number" formControlName="width" class="form-control" id="width" />
+
+    <label for="height">Height</label>
+    <input type="number" formControlName="height" class="form-control" id="height" />
+
+    <div class="button-row">
+      <!--
+      <button type="submit" [disabled]="!roomForm.valid">Calculate</button>
+      -->
+      <button type="submit">Calculate</button>
+    </div>
+
+  </div>
+</form>
