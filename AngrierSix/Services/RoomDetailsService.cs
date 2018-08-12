@@ -10,11 +10,13 @@ namespace AngrierSix.Services
     {
     public RoomDetailsResultViewModel GetRoomDetails(RoomViewModel model)
     {
+      //Length = 5.678, Width = 3.846, Height = 2.552
+
       return new RoomDetailsResultViewModel()
       {
-        FloorArea = 15.65333333M,
-        Volume = 56.546333333M,
-        PaintRequired = 9.768542M
+        FloorArea = model.Length * model.Width,
+        Volume = model.Length * model.Width * model.Height,
+        PaintRequired = (((model.Length * model.Height) + (model.Width * model.Height)) * 2) / Paint.Coverage["MattEmulsion"]
       };
     }
   }

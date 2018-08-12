@@ -24,7 +24,7 @@ namespace AngrierSix.Controllers
       [HttpGet]
       public ActionResult<RoomDetailsResultViewModel> Get()
       {
-        return _roomDetailsService.GetRoomDetails(new RoomViewModel());
+        return _roomDetailsService.GetRoomDetails(new RoomViewModel() { Length = 5.678M, Width = 3.846M, Height = 2.552M});
       }
 
       // POST api/room
