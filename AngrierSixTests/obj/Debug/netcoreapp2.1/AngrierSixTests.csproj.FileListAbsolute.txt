@@ -1,0 +1,17 @@
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\bin\Debug\netcoreapp2.1\AngrierSixTests.deps.json
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\bin\Debug\netcoreapp2.1\AngrierSixTests.runtimeconfig.json
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\bin\Debug\netcoreapp2.1\AngrierSixTests.runtimeconfig.dev.json
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\bin\Debug\netcoreapp2.1\AngrierSixTests.dll
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\bin\Debug\netcoreapp2.1\AngrierSixTests.pdb
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\bin\Debug\netcoreapp2.1\AngrierSix.dll
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\bin\Debug\netcoreapp2.1\AngrierSix.pdb
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\obj\Debug\netcoreapp2.1\AngrierSixTests.csprojAssemblyReference.cache
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\obj\Debug\netcoreapp2.1\AngrierSixTests.csproj.CoreCompileInputs.cache
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\obj\Debug\netcoreapp2.1\AngrierSixTests.AssemblyInfoInputs.cache
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\obj\Debug\netcoreapp2.1\AngrierSixTests.AssemblyInfo.cs
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\obj\Debug\netcoreapp2.1\AngrierSixTests.csproj.CopyComplete
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\obj\Debug\netcoreapp2.1\AngrierSixTests.dll
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\obj\Debug\netcoreapp2.1\AngrierSixTests.pdb
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\AngrierSixTests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll

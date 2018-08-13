@@ -1,0 +1,12 @@
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\b\AngrierSix\Debug\netcoreapp2.1\AngrierSix.deps.json
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\b\AngrierSix\Debug\netcoreapp2.1\AngrierSix.runtimeconfig.json
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\b\AngrierSix\Debug\netcoreapp2.1\AngrierSix.runtimeconfig.dev.json
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\b\AngrierSix\Debug\netcoreapp2.1\AngrierSix.dll
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\i\AngrierSix\Debug\netcoreapp2.1\AngrierSix.csproj.CoreCompileInputs.cache
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\i\AngrierSix\Debug\netcoreapp2.1\AngrierSix.RazorAssemblyInfo.cache
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\i\AngrierSix\Debug\netcoreapp2.1\AngrierSix.RazorAssemblyInfo.cs
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\i\AngrierSix\Debug\netcoreapp2.1\AngrierSix.AssemblyInfoInputs.cache
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\i\AngrierSix\Debug\netcoreapp2.1\AngrierSix.AssemblyInfo.cs
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\i\AngrierSix\Debug\netcoreapp2.1\AngrierSix.RazorTargetAssemblyInfo.cache
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\i\AngrierSix\Debug\netcoreapp2.1\AngrierSix.csproj.CopyComplete
+D:\Users\neilb\Documents\GitHub\sample-angular6-webapi-project\.vs\AngrierSix\lut\0\i\AngrierSix\Debug\netcoreapp2.1\AngrierSix.dll

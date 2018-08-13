@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using AngrierSix.Models;
 using AngrierSix.Services;
 using Microsoft.AspNetCore.Http;
@@ -22,23 +21,32 @@ namespace AngrierSix.Controllers
       }
       // GET api/room
       [HttpGet]
-      public ActionResult<RoomDetailsResultViewModel> Get()
+      public IActionResult Get()
       {
-         if(HttpContext.Session.GetObject<RoomDetailsResultViewModel>("RoomDetails") != null)
+        RoomDetailsResultViewModel vm;
+        if (HttpContext != null && HttpContext.Session.GetObject<RoomDetailsResultViewModel>("RoomDetails") != null)
         {
-          return HttpContext.Session.GetObject<RoomDetailsResultViewModel>("RoomDetails");
+          vm = HttpContext.Session.GetObject<RoomDetailsResultViewModel>("RoomDetails");
         }
-        else return _roomDetailsService.GetRoomDetails(new RoomViewModel() { Length = 5.678M, Width = 3.846M, Height = 2.552M});
-      }
+        else
+        {
+          vm = _roomDetailsService.GetRoomDetails(new RoomViewModel() { Length = 5.678M, Width = 3.846M, Height = 2.552M });
+        }
+        return Ok(vm);
+    }
 
-      // POST api/room
-      [HttpPost]
-      //public ActionResult<RoomDetailsResultViewModel> Post([FromBody] RoomViewModel model)
-      public void Post([FromBody] RoomViewModel model)
+    // POST api/room
+    [HttpPost]
+    //public ActionResult<RoomDetailsResultViewModel> Post([FromBody] RoomViewModel model)
+    public IActionResult Post([FromBody] RoomViewModel model)
+    {
+      RoomDetailsResultViewModel vm = _roomDetailsService.GetRoomDetails(new RoomViewModel() { Length = model.Length, Width = model.Width, Height = model.Height });
+      if (HttpContext != null)
       {
-        RoomDetailsResultViewModel vm = _roomDetailsService.GetRoomDetails(new RoomViewModel() { Length = model.Length, Width = model.Width, Height = model.Height });
         HttpContext.Session.SetObject("RoomDetails", vm);
-        //return _roomDetailsService.GetRoomDetails(new RoomViewModel() { Length = model.Length, Width = model.Width, Height = model.Height });
       }
+      return Ok(vm);
+      //return _roomDetailsService.GetRoomDetails(new RoomViewModel() { Length = model.Length, Width = model.Width, Height = model.Height });
+    }
     }
 }
